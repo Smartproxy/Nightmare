@@ -19,7 +19,7 @@ We suggest to reseach [Nightmare.js](https://github.com/segmentio/nightmare#api)
 
 `curl https://raw.githubusercontent.com/Smartproxy/Nightmare/master/nightmare.js > nightmare.js`
 
-<img src="https://i.imgur.com/joNFPlR.png">
+<img src="https://i.imgur.com/joNFPlR.png" alt="curl smartproxy nightmare code sample">
 
 3. You should see a new file named nightmare.js in your project folder. Edit it using an editor of your choice.
 
@@ -27,7 +27,7 @@ We suggest to reseach [Nightmare.js](https://github.com/segmentio/nightmare#api)
 
 4. To setup your username and password change the according fields in within punctuation marks (''). You can also choose an endpoint which you would like to use by editing `proxy-server:` parameter.
 
-<img src="https://i.imgur.com/PdwCcwr.png">
+<img src="https://i.imgur.com/PdwCcwr.png" alt="smartproxy nightmare http proxy configuration with username password authentication">
 
 ### Usage
 
