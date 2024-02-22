@@ -14,7 +14,7 @@ We suggest to reseach [Nightmare.js](https://github.com/segmentio/nightmare#api)
 
 ### Installation
 
-1. Once you have your project directory ready for development with Nigtmare.js, open it using Terminal/Command prompt utilising `cd` command.
+1. Once you have your project directory ready for development with Nigtmare.js, open it using Terminal/Command prompt utilizing `cd` command.
 2. After that, execute the following command to download our proxy setup example file:
 
 `curl https://raw.githubusercontent.com/Smartproxy/Nightmare/master/nightmare.js > nightmare.js`
@@ -23,11 +23,9 @@ We suggest to reseach [Nightmare.js](https://github.com/segmentio/nightmare#api)
 
 3. You should see a new file named nightmare.js in your project folder. Edit it using an editor of your choice.
 
-<img src="https://i.imgur.com/eJ4q33o.png">
+4. To setup your username and password change the according fields within punctuation marks (''). You can also choose an endpoint that you would like to use by editing the `proxy-server:` parameter.
 
-4. To setup your username and password change the according fields in within punctuation marks (''). You can also choose an endpoint which you would like to use by editing `proxy-server:` parameter.
-
-<img src="https://i.imgur.com/PdwCcwr.png" alt="smartproxy nightmare http proxy configuration with username password authentication">
+<img src="https://i.imgur.com/4pYpylp.png" alt="smartproxy nightmare http proxy configuration with username password authentication">
 
 ### Usage
 
@@ -35,9 +33,9 @@ To run this example script, while in your project folder, run the following comm
 
 `node nightmare.js`
 
-If you did everything correctly, you should see an IP appearing form our proxy server once script finishes running.
+If you did everything correctly, you should see an IP appearing from our proxy server once the script finishes running.
 
-<img src="https://i.imgur.com/4pYpylp.png">
+<img src="https://i.imgur.com/lXFtq4I.png" alt="ip information output after executing nightmare script">
 
 ## Contacts
 Email - sales@smartproxy.com
