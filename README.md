@@ -10,7 +10,7 @@
 ### Disclaimer
 
 The following example is a simple script showing how to utilize Smartproxy with Nightmare.js.
-We suggest to reseach [Nightmare.js](https://github.com/segmentio/nightmare#api) documentation in order to continue development with this tool.
+We suggest to research [Nightmare.js](https://github.com/segmentio/nightmare#api) documentation in order to continue development with this tool.
 
 ### Installation
 
@@ -25,7 +25,7 @@ We suggest to reseach [Nightmare.js](https://github.com/segmentio/nightmare#api)
 
 4. To setup your username and password change the according fields within punctuation marks (''). You can also choose an endpoint that you would like to use by editing the `proxy-server:` parameter.
 
-<img src="https://i.imgur.com/4pYpylp.png" alt="smartproxy nightmare http proxy configuration with username password authentication">
+<img src="https://i.imgur.com/jiUghu8.png" alt="smartproxy nightmare http proxy configuration with username password authentication">
 
 ### Usage
 
