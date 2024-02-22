@@ -2,7 +2,7 @@ var Nightmare = require('nightmare');
 
 let nightmare = Nightmare({
       switches: {
-        'proxy-server': 'gate.smartproxy.com:7000', // Endpoint
+        'proxy-server': 'gate.smartproxy.com:7000', // Your desired endpoint within punctuation marks ('')
         'ignore-certificate-errors': true
       }
     });
