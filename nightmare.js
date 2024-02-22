@@ -8,9 +8,9 @@ let nightmare = Nightmare({
     });
 
     nightmare
-    .authentication('username','password') // Username and Password for your Sub-user
-    .goto('https://whatismyipaddress.com')
-    .evaluate(() => document.querySelector('div#ipv4').textContent)
+    .authentication('username','password') // Your proxy username and password within punctuation marks ('')
+    .goto('https://ip.smartproxy.com/json')
+    .evaluate(() => document.querySelector('body').textContent)
     .end()
     .then(ip => console.log(ip))
     .catch(error => console.error('Something went wrong...', error));
